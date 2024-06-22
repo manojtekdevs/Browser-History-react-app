@@ -1,0 +1,73 @@
+.history-list-item {
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.time-accessed {
+  width: 100%;
+  font-weight: 700;
+}
+.domainLogo-title-domainUrl-deleteIcon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.domainLogo-title-domainUrl-container {
+  display: flex;
+}
+.title-domainUrl {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.domain-logo {
+  height: 100%;
+  width: 36px;
+  margin: 0px;
+}
+.title {
+  margin: 0px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+.domain-url {
+  color: #64748b;
+  margin: 0px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  width: 30px;
+  padding: 0px;
+}
+.delete-icon {
+  margin: 0px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .time-accessed {
+    width: 100px;
+  }
+  .domainLogo-title-domainUrl-deleteIcon-container {
+    width: 80%;
+  }
+  .title-domainUrl {
+    flex-direction: row;
+  }
+  .button {
+    height: 40px;
+    width: 40px;
+  }
+  .title {
+    font-size: 22px;
+  }
+  .domain-url {
+    font-size: 22px;
+  }
+}
